@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Muhammad Baziral Ramadhan</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 50px 40px;
+            border-radius: 20px;
+            text-align: center;
+            width: 340px;
+            box-shadow: 0 4px 25px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 35px rgba(0,0,0,0.4);
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #00c6ff;
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 15px;
+            color: #ddd;
+            margin-bottom: 20px;
+        }
+
+        .bio {
+            font-size: 15px;
+            line-height: 1.7;
+            color: #eee;
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #00c6ff;
+            margin: 0 10px;
+            font-size: 22px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #fff;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 13px;
+            color: #ccc;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                width: 90%;
+                padding: 35px;
+            }
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Muhammad Baziral Ramadhan</h1>
+        <h3>NIM: 2303020025</h3>
+        <div class="bio">
+            <p>
+                Saya adalah alumni Pondok Pesantren Darunnajah 13. Saat ini saya sedang menempuh pendidikan di Universitas Darunnajah.
+                Selain kuliah, saya juga aktif mengajar di Darunnajah 13 sebagai bentuk pengabdian dan pengembangan diri di bidang pendidikan.
+            </p>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Muhammad Baziral Ramadhan | Universitas Darunnajah
+    </footer>
+
+</body>
+</html>
